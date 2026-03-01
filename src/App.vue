@@ -1,12 +1,10 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import { useAuthStore } from '@/stores/authStore'
 
+const auth = useAuthStore()
+auth.loadUser()
+</script>
 
 <template>
-  <div class="min-h-screen bg-white dark:bg-black flex items-center justify-center">
-    <h1 class="text-black dark:text-white text-4xl font-bold">
-      Dark Mode Test
-    </h1>
-  </div>
+  <router-view />
 </template>
-
-<style scoped></style>

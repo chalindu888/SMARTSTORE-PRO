@@ -1,13 +1,12 @@
-import type { Config } from 'tailwindcss'
-
+/** @type {import('tailwindcss').Config} */
 export default {
-  darkMode: 'class',
+  darkMode: 'class',   // 👈 VERY IMPORTANT
   content: [
     "./index.html",
-    "./src/**/*.{vue,ts}"
+    "./src/**/*.{vue,js,ts,jsx,tsx}",
   ],
   theme: {
     extend: {},
   },
   plugins: [],
-} satisfies Config
+}
