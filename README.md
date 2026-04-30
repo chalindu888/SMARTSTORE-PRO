@@ -1,48 +1,63 @@
-# smartstore-pro
+# 🛍 SmartStore Pro
 
-This template should help get you started developing with Vue 3 in Vite.
+A modern, data-driven Single Page Application (SPA) built using Vue 3, TypeScript, and Tailwind CSS.
 
-## Recommended IDE Setup
+---
 
-[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## 🚀 Project Overview
 
-## Recommended Browser Setup
+SmartStore Pro is a responsive e-commerce frontend application that demonstrates:
 
-- Chromium-based browsers (Chrome, Edge, Brave, etc.):
-  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)
-  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
-- Firefox:
-  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
-  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
+- API integration
+- Component-based architecture
+- State management using Pinia
+- Search & filtering
+- Authentication simulation
+- Dark mode
+- Clean Git workflow
 
-## Type Support for `.vue` Imports in TS
+This project follows clean architecture principles and modern frontend best practices.
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
+---
 
-## Customize configuration
+## 🛠 Tech Stack
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+- Vue 3 (Composition API)
+- TypeScript
+- Tailwind CSS
+- Pinia (State Management)
+- Vue Router
+- Vite
 
-## Project Setup
+---
 
-```sh
-npm install
-```
+## 📦 Features
 
-### Compile and Hot-Reload for Development
+### ✅ Core Features
+- Product listing from API
+- Product detail view
+- Responsive UI
+- Search functionality
+- Category filtering
 
-```sh
-npm run dev
-```
+### 🛒 Cart (Bonus)
+- Add to cart
+- Remove from cart
+- Quantity management
+- Total price calculation
+- Persistent cart (localStorage)
 
-### Type-Check, Compile and Minify for Production
+### 🌙 Dark Mode (Bonus)
+- Toggle light/dark mode
+- Theme saved in localStorage
+- Fully styled dark UI
 
-```sh
-npm run build
-```
+### 🔐 Authentication Simulation (Bonus)
+- Login page
+- Protected routes
+- Route guards
+- Persistent login state
 
-### Lint with [ESLint](https://eslint.org/)
+---
 
-```sh
-npm run lint
-```
+## 🏗 Project Structure

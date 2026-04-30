@@ -28,8 +28,8 @@ function toggleTheme() {
 <template>
   <button
     @click="toggleTheme"
-    class="px-4 py-2 bg-indigo-500 text-white rounded hover:bg-indigo-600"
+    class="bg-gray-200 dark:bg-gray-700 dark:text-white px-3 py-1 rounded"
   >
-    {{ isDark ? '☀ Light Mode' : '🌙 Dark Mode' }}
+    {{ isDark ? '☀' : '🌙' }}
   </button>
 </template>
