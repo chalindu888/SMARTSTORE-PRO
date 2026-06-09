@@ -2,7 +2,7 @@
 import { ref, onMounted } from 'vue'
 import { useRoute } from 'vue-router'
 import { fetchProductById } from '@/services/productService'
-import type { Product } from '@/types/Product'
+import type { Product } from '@/types/product'
 
 const route = useRoute()
 const product = ref<Product | null>(null)

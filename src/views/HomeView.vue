@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { ref, computed, onMounted } from 'vue'
 import { fetchProducts } from '@/services/productService'
-import type { Product } from '@/types/Product'
+import type { Product } from '@/types/product'
 
 import ProductCard from '@/components/ProductCard.vue'
 import Banner from '@/components/Banner.vue'

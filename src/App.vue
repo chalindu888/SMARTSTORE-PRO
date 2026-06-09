@@ -2,7 +2,8 @@
 import Navbar from '@/components/Navbar.vue'
 import { useAuthStore } from '@/stores/authStore'
 import { useCartStore } from '@/stores/cartStore'
-
+import Footer from '@/components/Footer.vue'
+import ShopInfoBar from '@/components/ShopInfoBar.vue'
 const auth = useAuthStore()
 const cart = useCartStore()
 
@@ -11,8 +12,16 @@ cart.loadCart()
 </script>
 
 <template>
-  <div class="min-h-screen bg-gray-100 dark:bg-black">
+  <div class="min-h-screen flex flex-col">
+
     <Navbar />
-    <router-view />
+
+    <main class="flex-grow">
+      <router-view />
+    </main>
+
+    <Footer />
+    <ShopInfoBar />
+
   </div>
 </template>
