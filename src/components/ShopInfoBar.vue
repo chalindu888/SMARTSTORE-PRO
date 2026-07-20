@@ -8,7 +8,7 @@
         <!-- Store Information -->
         <div>
           <h3 class="font-bold text-lg mb-3">
-            🏪 CKS SmartStore
+             CKS SmartStore
           </h3>
 
           <p class="text-sm text-gray-300">
@@ -19,7 +19,7 @@
         <!-- Contact -->
         <div>
           <h3 class="font-bold text-lg mb-3">
-            📞 Contact Us
+             Contact Us
           </h3>
 
           <p class="text-sm">Phone: +94 77 123 4567</p>
@@ -30,7 +30,7 @@
         <!-- Opening Hours -->
         <div>
           <h3 class="font-bold text-lg mb-3">
-            🕒 Opening Hours
+             Opening Hours
           </h3>
 
           <p class="text-sm">Mon - Fri : 8.00 AM - 8.00 PM</p>
@@ -41,7 +41,7 @@
         <!-- Services -->
         <div>
           <h3 class="font-bold text-lg mb-3">
-            🚚 Our Services
+            Our Services
           </h3>
 
           <ul class="text-sm space-y-1">
