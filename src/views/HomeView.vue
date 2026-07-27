@@ -59,7 +59,7 @@ const filteredProducts = computed(() => {
     </div>
 
     <!-- Products Section -->
-    <div class="relative animate-entrance" style="animation-delay: 250ms">
+    <div id="products-section" class="relative animate-entrance" style="animation-delay: 250ms">
       <!-- Loading State Skeleton -->
       <div v-if="loading" class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-4 sm:gap-6">
         <div v-for="i in 12" :key="i" class="animate-pulse flex flex-col rounded-2xl bg-white dark:bg-neutral-900/40 border border-gray-100 dark:border-neutral-800/80 aspect-square p-3">
