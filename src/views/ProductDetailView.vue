@@ -65,7 +65,7 @@ function addToCart() {
 </script>
 
 <template>
-  <div class="min-h-screen bg-slate-50 dark:from-neutral-950 dark:to-neutral-900 py-12 px-4 sm:px-6 lg:px-8">
+  <div class="min-h-screen py-8 px-4 sm:px-6 transition-colors duration-300">
     <div class="max-w-6xl mx-auto">
       
       <!-- Back button -->

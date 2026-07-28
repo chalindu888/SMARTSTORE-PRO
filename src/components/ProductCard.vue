@@ -11,7 +11,7 @@ defineProps<{
 
 <template>
   <div
-    class="group relative flex flex-col justify-between overflow-hidden rounded-2xl border border-gray-100 bg-white shadow-xs transition-all duration-300 hover:-translate-y-1 hover:border-indigo-100 hover:shadow-md dark:border-neutral-800/80 dark:bg-neutral-900/40 dark:hover:border-indigo-950 dark:hover:shadow-indigo-950/20"
+    class="group relative flex flex-col justify-between overflow-hidden rounded-2xl border-2 border-gray-200 bg-white shadow-sm transition-all duration-300 hover:-translate-y-1 hover:border-indigo-400 hover:shadow-lg hover:shadow-indigo-100 dark:border-neutral-700 dark:bg-neutral-900/40 dark:hover:border-indigo-500 dark:hover:shadow-indigo-950/40"
   >
     <router-link :to="`/product/${product.id}`" class="block flex-grow cursor-pointer">
       <!-- Image wrapper -->

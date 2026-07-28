@@ -25,7 +25,7 @@ function handleLogin() {
 </script>
 
 <template>
-  <div class="min-h-screen flex items-center justify-center bg-gray-100 dark:bg-black">
+  <div class="min-h-screen flex items-center justify-center transition-colors duration-300">
     <div class="bg-white dark:bg-gray-800 p-8 rounded-lg shadow w-96">
 
       <h2 class="text-2xl font-bold mb-6 text-center dark:text-white">

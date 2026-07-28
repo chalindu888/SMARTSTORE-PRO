@@ -5,6 +5,8 @@ import LoginView from '@/views/LoginView.vue'
 import { useAuthStore } from '@/stores/authStore'
 import CartView from '@/views/CartView.vue'
 import SignupView from '@/views/SignupView.vue'
+import AboutView from '@/views/AboutView.vue'
+import ContactDetailView from '@/views/ContactDetailView.vue'
 
 const router = createRouter({
   history: createWebHistory(),
@@ -13,6 +15,16 @@ const router = createRouter({
       path: '/',
       name: 'home',
       component: HomeView
+    },
+    {
+      path: '/about-us',
+      name: 'about-us',
+      component: AboutView
+    },
+    {
+      path: '/contact-detail',
+      name: 'contact-detail',
+      component: ContactDetailView
     },
     {
      path: '/signup',

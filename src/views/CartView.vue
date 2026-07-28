@@ -219,7 +219,7 @@ function addRecommendedToCart(product: Product) {
 </script>
 
 <template>
-  <div class="min-h-screen bg-gradient-to-br from-slate-50 to-slate-100 dark:from-neutral-950 dark:to-neutral-900 py-12 px-4 sm:px-6 lg:px-8">
+  <div class="min-h-screen py-12 px-4 sm:px-6 lg:px-8 transition-colors duration-300">
     <div class="max-w-7xl mx-auto">
       
       <!-- Stepper / Wizard Tracker -->
@@ -279,7 +279,7 @@ function addRecommendedToCart(product: Product) {
           <div v-if="currentStep === 1" class="bg-white dark:bg-neutral-900 rounded-2xl border border-gray-100 dark:border-neutral-800 p-6 shadow-sm">
             <div class="flex justify-between items-center mb-6">
               <h2 class="text-2xl font-bold text-gray-900 dark:text-white flex items-center gap-2">
-                🛍️ Your Cart 
+                 Your Cart 
                 <span class="text-sm font-normal px-2.5 py-0.5 rounded-full bg-indigo-50 dark:bg-indigo-950 text-indigo-600 dark:text-indigo-400">
                   {{ cart.totalItems }} {{ cart.totalItems === 1 ? 'item' : 'items' }}
                 </span>
@@ -389,7 +389,7 @@ function addRecommendedToCart(product: Product) {
           <div v-if="currentStep === 2" class="bg-white dark:bg-neutral-900 rounded-2xl border border-gray-100 dark:border-neutral-800 p-6 shadow-sm animate-fade-in">
             <div class="flex justify-between items-center mb-6 border-b border-gray-100 dark:border-neutral-800 pb-4">
               <h2 class="text-2xl font-bold text-gray-900 dark:text-white flex items-center gap-2">
-                📦 Shipping Details
+                 Shipping Details
               </h2>
               <button 
                 @click="fillShippingInfo"
@@ -770,7 +770,7 @@ function addRecommendedToCart(product: Product) {
           <!-- PRODUCT RECOMMENDATIONS -->
           <div v-if="currentStep < 4" class="bg-white dark:bg-neutral-900 rounded-2xl border border-gray-100 dark:border-neutral-800 p-6 shadow-sm mt-8">
             <h3 class="text-lg font-bold text-gray-900 dark:text-white mb-4 flex items-center gap-2">
-              🔥 You Might Also Like
+               You Might Also Like
             </h3>
 
             <div v-if="loadingRecommendations" class="grid grid-cols-2 md:grid-cols-4 gap-4 animate-pulse">
@@ -834,7 +834,7 @@ function addRecommendedToCart(product: Product) {
               <!-- Shipping -->
               <div class="flex justify-between items-center text-gray-500 dark:text-neutral-400">
                 <span class="flex items-center gap-1">
-                  🚚 Shipping
+                  Shipping
                   <span class="text-[10px] text-indigo-500 capitalize" v-if="currentStep >= 2">({{ cart.shippingMethod }})</span>
                 </span>
                 <span class="text-gray-900 dark:text-white">

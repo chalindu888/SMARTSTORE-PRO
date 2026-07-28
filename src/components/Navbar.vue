@@ -102,6 +102,20 @@ function scrollToProducts() {
           Shop
         </a>
         <router-link
+          to="/about-us"
+          class="text-sm font-semibold text-gray-600 dark:text-neutral-300 hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors duration-200 relative py-1 after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-indigo-600 dark:after:bg-indigo-400 after:transition-all after:duration-300 hover:after:w-full"
+          active-class="text-indigo-600 dark:text-indigo-400 after:w-full"
+        >
+          About Us
+        </router-link>
+        <router-link
+          to="/contact-detail"
+          class="text-sm font-semibold text-gray-600 dark:text-neutral-300 hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors duration-200 relative py-1 after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-indigo-600 dark:after:bg-indigo-400 after:transition-all after:duration-300 hover:after:w-full"
+          active-class="text-indigo-600 dark:text-indigo-400 after:w-full"
+        >
+          Contact Detail
+        </router-link>
+        <router-link
           to="/cart"
           class="text-sm font-semibold text-gray-600 dark:text-neutral-300 hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors duration-200 relative py-1 after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-indigo-600 dark:after:bg-indigo-400 after:transition-all after:duration-300 hover:after:w-full"
           active-class="text-indigo-600 dark:text-indigo-400 after:w-full"

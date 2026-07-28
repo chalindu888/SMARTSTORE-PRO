@@ -23,7 +23,7 @@ watch(search, (newValue) => {
       v-model="search"
       type="text"
       placeholder="Search products..."
-      class="w-full pl-10 pr-4 py-2.5 bg-gray-50 border border-gray-100 dark:bg-neutral-800/40 dark:border-neutral-800 dark:text-white rounded-xl focus:outline-hidden focus:ring-2 focus:ring-indigo-500/20 focus:border-indigo-500 transition-all duration-200 placeholder-gray-400 dark:placeholder-neutral-500 text-sm font-medium"
+      class="w-full pl-10 pr-4 py-2.5 bg-white/70 border border-amber-100 dark:bg-neutral-800/40 dark:border-neutral-800 dark:text-white rounded-xl shadow-sm focus:outline-hidden focus:ring-2 focus:ring-amber-300/30 focus:border-amber-400 transition-all duration-200 placeholder-gray-400 dark:placeholder-neutral-500 text-sm font-medium"
     />
   </div>
-</template>
+</template>

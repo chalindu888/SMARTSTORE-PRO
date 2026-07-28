@@ -10,13 +10,13 @@ export default {
   theme: {
     extend: {
       colors: {
-        // Map indigo to a premium violet/amethyst palette
-        indigo: colors.violet,
+        // Map indigo to a warm amber/gold palette for friendlier accents
+        indigo: colors.amber,
         // Map gray to a sleeker zinc surface tone
         gray: colors.zinc,
       },
       fontFamily: {
-        sans: ['"Plus Jakarta Sans"', 'sans-serif'],
+        sans: ['"Outfit"', 'sans-serif'],
       },
     },
   },
